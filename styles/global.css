@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* Cores */
+
+    /* Principal */
+    --red: #e3646e;
+    --purple: rgb(187, 114, 233);
+    --blue: rgb(57, 150, 219);
+    --green: rgb(130, 188, 79);
+    --yellow: rgb(234, 189, 95);
+
+    /* Base */
+    --gray-100: #e2e4e9;
+    --gray-200: #c0c4ce;
+    --gray-300: rgb(135, 142, 161);
+    --gray-400: #292c34;
+    --gray-500: #16181d;
+    --gray-600: #0d0e11; 
+
+    /* Fonts */
+
+    --asap: "Asap", sans-serif;
+    --maven: "Maven Pro", sans-serif;
+    --inconsolata: "Inconsolata", monospace;
+
+
+    --title-lg: 600 56px/120% var(--asap);
+    --title-md: 600 24px/120% var(--asap);
+    --title-sm: 600 16px/120% var(--asap);
+
+    --subtitle: 20px/120% var(--inconsolata);
+
+    --text-md: 16px/140% var(--maven);
+    --text-sm: 14px/140% var(--maven);
+
+    font: var(--text-sm);
+    color: var(--gray-300);
+
+    h1{
+        padding: 0;
+        font: var(--title-lg);
+        color: var(--gray-100);
+    }
+
+    h2{
+        font: var(--title-md);
+        color: var(--gray-100);
+    }
+}

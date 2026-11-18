@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="flex align-center">
+      <a href="index.html">Inicial</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="curriculo.html">Currículo</a>
+      <a href="contato.html" class="active">Contato</a>
+      <a href="ajuda.html">Ajuda</a>
+    </nav>
+    
+    <!-- Usando a mesma estrutura padronizada das outras páginas -->
+    <section class="page-section flex flex-dir-col align-center pad-inline-163">
+      <div class="page-content flex flex-dir-col align-center">
+        
+        <header class="flex flex-dir-col align-center" style="margin-bottom: 32px; text-align: center;">
+          <p class="subtitle purple-color">Contato</p>
+          <h2>Gostou do meu trabalho?</h2>
+          <p style="color: var(--gray-200); margin-top: 16px;">Preencha o formulário ou acompanhe as minhas redes sociais!</p>
+        </header>
+
+        <form class="form-container flex flex-dir-col" action="#">
+          <div class="form-group flex flex-dir-col">
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" required placeholder="Seu nome completo">
+          </div>
+          <div class="form-group flex flex-dir-col">
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" required placeholder="seu@email.com">
+          </div>
+          <div class="form-group flex flex-dir-col">
+              <label for="assunto">Assunto:</label>
+              <input type="text" id="assunto" required placeholder="Assunto da mensagem">
+          </div>
+          <div class="form-group flex flex-dir-col">
+              <label for="mensagem">Mensagem:</label>
+              <textarea id="mensagem" rows="4" required placeholder="Escreva sua mensagem..."></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Enviar Mensagem</button>
+        </form>
+
+        <div id="links" style="margin-top: 24px;">
+          <ul class="flex" style="gap: 24px; list-style: none;">
+            <li>
+              <a target="_blank" href="https://www.linkedin.com/in/mairon-ximenes/" class="flex align-center" style="gap: 8px; color: var(--gray-200); text-decoration: none;">
+                <p class="text-md">Linkedin</p><img src="assets/icons/icons-utility/arrow-up-right.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Mairon-Ximenes" target="_blank" class="flex align-center" style="gap: 8px; color: var(--gray-200); text-decoration: none;">
+                <p class="text-md">GitHub</p><img src="assets/icons/icons-utility/arrow-up-right.svg" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+  </body>
+</html>

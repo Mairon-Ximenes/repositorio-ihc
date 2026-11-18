@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio - Inicial</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="flex align-center">
+      <a href="index.html" class="active">Inicial</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="curriculo.html">Currículo</a>
+      <a href="contato.html">Contato</a>
+      <a href="ajuda.html">Ajuda</a>
+    </nav>
+
+    <section id="intro" class="flex pad-inline-163">
+      <div id="info" class="flex flex-dir-col">
+        <header class="flex flex-dir-col container">
+          <div id="avatar">
+            <div>
+              <img src="assets/images/person-image.jpeg" alt="" />
+              <img src="assets/icons/icons-social/Vector.svg" alt="" />
+            </div>
+          </div>
+          <div id="text" class="flex flex-dir-col align-center">
+            <div id="title" class="flex flex-dir-col align-center">
+              <p class="subtitle">Hello World! Meu nome é <span class="red-color subtitle">Mairon Ximenes</span> e sou</p>
+              <h1>Desenvolvedor Fullstack</h1>
+            </div>
+            <p>Transformo necessidades em aplicações reais. Este espaço apresenta meus destaques e atividades práticas da disciplina de IHC.</p>
+          </div>
+        </header>
+        <div>
+          <ul id="tags" class="flex">
+            <li class="flex"><img src="assets/icons/icons-technologies/GitHub.svg" alt="" /><p>GitHub</p></li>
+            <li class="flex"><img src="assets/icons/icons-technologies/HTML.svg" alt="" /><p>HTML</p></li>
+            <li class="flex"><img src="assets/icons/icons-technologies/CSS.svg" alt="" /><p>CSS</p></li>
+            <li class="flex"><img src="assets/icons/icons-technologies/JavaScript.svg" alt="" /><p>JavaScript</p></li>
+            <li class="flex"><img src="assets/icons/icons-technologies/React.svg" alt="" /><p>React</p></li>
+            <li class="flex"><img src="assets/icons/icons-technologies/Node.js.svg" alt="" /><p>Node.js</p></li>
+          </ul>
+        </div>
+      </div>
+      <img src="assets/icons/icons-utility/caret-double-down.svg" alt="" />
+    </section>
+
+    <section id="projects" class="flex flex-dir-col align-center container pad-inline-163">
+      <header class="flex flex-dir-col align-center">
+        <p class="subtitle red-color">Atividades Práticas</p>
+        <h2>Veja os projetos em destaque</h2>
+      </header>
+      <div id="projetos">
+        <ul class="grid">
+          <li class="card">
+            <a target="_blank" href="https://mairon-ximenes.github.io/projeto-travelgram/">
+              <img src="assets/images/Thumbnail_Project-01.png" alt="" />
+              <div class="text"><p class="title-sm">Travelgram</p><p class="text-sm">Rede social de viagens</p></div>
+            </a>
+          </li>
+          <li class="card">
+            <a target="_blank" href="https://mairon-ximenes.github.io/fullstack-projeto-portal-de-noticias/">
+              <img src="assets/images/Thumbnail_Project-02.png" alt="" />
+              <div class="text"><p class="title-sm">Tech News</p><p class="text-sm">Portal de notícias</p></div>
+            </a>
+          </li>
+          <li class="card">
+            <a href="https://mairon-ximenes.github.io/projeto-receita-fullstack/" target="_blank">
+              <img src="assets/images/Thumbnail_Project-03.png" alt="" />
+              <div class="text"><p class="title-sm">Receita</p><p class="text-sm">Passo a passo cupcakes</p></div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>

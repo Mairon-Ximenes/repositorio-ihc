@@ -1,0 +1,116 @@
+#intro {
+  height: 750px;
+  position: relative;
+  padding-block: 120px 183px;
+  background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
+  justify-content: center;
+
+  & > img {
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    position: absolute;
+    top: 661px;
+    bottom: 57px;
+  }
+}
+
+#info {
+  margin-top: 0;
+  width: 1040px;
+  padding: 0;
+  row-gap: 80px;
+  align-items: center;
+  justify-items: center;
+
+  header {
+    width: 680px;
+    justify-content: center;
+
+    #avatar {
+      width: auto;
+      display: flex;
+      justify-content: center;
+      height: 112px;
+
+      div {
+        position: relative;
+      }
+
+      div img:nth-child(1) {
+        width: 112px;
+        height: 112px;
+        border-radius: 50%;
+        padding: 4px;
+        border: 2px solid var(--red);
+      }
+
+      div img:nth-child(2) {
+        position: absolute;
+        padding: 2px;
+        top: 78px;
+        left: 78px;
+      }
+    }
+
+    #text {
+      p {
+        text-align: center;
+      }
+    }
+  }
+
+  #tags {
+    gap: 16px;
+
+    box-sizing: unset;
+    li {
+      border: 2px solid transparent;
+      gap: 8px;
+      align-items: center;
+      padding: 8px 16px;
+      border-radius: 50px;
+      background-color: var(--gray-400);
+
+      p {
+        font: var(--text-md);
+        color: var(--gray-200);
+      }
+
+      img {
+        padding: 2px;
+      }
+    }
+
+    li:nth-child(1):hover {
+      cursor: pointer;
+      border: 2px solid var(--gray-200);
+    }
+
+    li:nth-child(2):hover {
+      cursor: pointer;
+      border: 2px solid var(--red);
+    }
+
+    li:nth-child(3):hover {
+      cursor: pointer;
+      border: 2px solid var(--blue);
+    }
+
+    li:nth-child(4):hover {
+      cursor: pointer;
+      border: 2px solid var(--yellow);
+    }
+
+    li:nth-child(5):hover {
+      cursor: pointer;
+      border: 2px solid var(--blue);
+    }
+
+    li:nth-child(6):hover {
+      cursor: pointer;
+      border: 2px solid var(--green);
+    }
+  }
+}

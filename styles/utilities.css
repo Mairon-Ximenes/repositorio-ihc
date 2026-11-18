@@ -1,0 +1,56 @@
+.pad-inline-163{
+    padding-inline: 163px;
+}
+
+.red-color{
+    color: var(--red);
+}
+
+.purple-color{
+    color: var(--purple);
+}
+
+.subtitle{
+    font: var(--subtitle);
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-sm{
+    font: var(--title-sm);
+    color: var(--gray-100);
+}
+
+.text-sm{
+    font: var(--text-sm);
+    color: var(--gray-200);
+}
+
+.text-md{
+    font: var(--text-md);
+    color: var(--gray-200);
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-dir-col{
+    flex-direction: column;
+}
+
+.grid{
+    display: grid;
+}
+
+
+.align-center{
+    align-items: center;
+}
+
+.container{
+    gap: 56px;
+}
